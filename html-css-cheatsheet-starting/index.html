@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>CSS Color Cheatsheet</title>
+    <link href="./resources/cheatsheet.css" rel="stylesheet">
+</head>
+<body>
+    <div> <!--Main Headiing-->
+    <h1>CSS Color Cheatsheet</h1>
+    </div>
+
+    <div> <!--Table section-->
+        <h3>Color Attributes</h3> <!--Name of Table-->
+    </div>
+    <div>
+        <table>
+            <thead> <!--Table Headngs-->
+              <td>Attribute</td>
+              <td>Name</td>
+              <td colspan="6">Description </td>
+              <td>Example</td>
+            </thead>
+            <tbody>
+                <tr> <!--1st row-->
+                    <td class="attr">color:</td>
+                    <td>Keyword color</td>
+                    <td colspan="6">Named color of display text.</td>
+                    <td>color: 'green'</td>
+                </tr>
+                <tr> <!--2nd row-->
+                    <td class="attr">rgb()</td>
+                    <td>Red, Blue, Green</td>
+                    <td colspan="6">Numeric value mix of red, blue, green. Value from 0 to 255.</td>
+                    <td>rga(0,255, 123) </td>
+                </tr>
+                <tr> <!--3rd row-->
+                    <td class="attr">hsl()</td>
+                    <td>Hue-Saturation-Light</td>
+                    <td colspan="6">Numeric values of Hue-Saturation-Light.Valuse from 0 to 360.</td>
+                    <td>hsl(120, 60%, 70%)</td>
+                </tr>
+                <tr> <!--4th row-->
+                    <td class="attr">#</td>
+                    <td>Hexademical</td>
+                    <td colspan="6">Hex color # followed by 3 or 6 characters. Value for red, blue and green. 16 digits; 0 to 9 followed by "A" to "F". 6 value hex can be shortened to 3 digits.</td>
+                    <td>#FF0000</td>
+                </tr>
+                <tr> <!--5th row-->
+                    <td class="attr">hsla</td>
+                    <td>Opacity in hsl</td>
+                    <td colspan="6">Opacity added to hsl(). alpha is a decimal between 0 and 1.</td>
+                    <td>hsla(34, 100%, 50%, 0.1)</td>
+                </tr>
+                <tr class="col1"> <!--6TH row-->
+                    <td class="attr">rgba</td>
+                    <td>Opacity in rgba</td>
+                    <td colspan="6">Like hsla, opacity is added to rgb().</td>
+                    <td>rgba(234, 45, 98, 0.33)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div> <!--Key point section-->
+        <h3 class="key">Key points to remember</h3>
+        <ul>
+            <li>color: Foreground color i.e. color of text</li>
+            <li>back-ground color: Background color of the element</li>
+            <li>Named color: English Words to descrobe color also called "Keyword Colors"</li>
+            <li>Transparent: Zero Opacity, used like a color keyword</li>
+        </ul>
+    </div> 
+    <footer> <!--Footer-->
+        <p>Made by Lydia July 2022</p>
+    </footer>
+</body>
+</html>
